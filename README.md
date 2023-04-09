@@ -7,9 +7,18 @@
 - 总之比较灵活走一步看一部
 
 # 主要技术
+- React
+- Eslint, Prettier
+
 
 # 主要功能
+- 建立主页功能
 
+# 简历
+
+
+# 以下是相关React文档
+---
 
 # Getting Started with Create React App
 
