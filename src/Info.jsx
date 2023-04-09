@@ -5,6 +5,7 @@ const Info = () => {
   return (
     <div>
       <h1>这是INFO的组件</h1>
+      
       {friends.map((item, index) => { 
         return <li key={index}>{item}</li>})
        }
