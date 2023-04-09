@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const Info = () => {
-  let friends = ['小明', '小红', '小刚']
+function Info() {
+  const friends = ['小明', '小红', '小刚'];
   return (
     <div>
       <h1>这是INFO的组件</h1>
-      
-      {friends.map((item, index) => { 
-        return <li key={index}>{item}</li>})
-       }
+
+      {friends.map((item) => <p>{item}</p>)}
     </div>
-  )
+  );
 }
 
-export default Info
+export default Info;

@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-const Nav = () => {
+function Nav() {
   return (
     <div>
       <ul>
         <li>
-            <a href="/">首页</a>
+          <a href="/">首页</a>
         </li>
-        <li>   
-            <a href="/info">信息</a>
+        <li>
+          <a href="/info">信息</a>
         </li>
       </ul>
     </div>
-  )
+  );
 }
 
-export default Nav
+export default Nav;
