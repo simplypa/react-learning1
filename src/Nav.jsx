@@ -7,7 +7,7 @@ const Nav = () => {
         <li>
             <a href="/">首页</a>
         </li>
-        <li>
+        <li>   
             <a href="/info">信息</a>
         </li>
       </ul>
