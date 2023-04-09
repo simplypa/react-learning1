@@ -1,3 +1,16 @@
+# 这是第一个React学习项目，这是项目路线和开始的想法
+- 没有用Tailwind，
+- 用最基础的CSS可能会用SCSS
+- 没用Next.js
+- 尝试看看能不能用MySQl, 或者PostgreSQL储存数据， 看看Prisma？ 
+- 后端尝试用用Node.js ？
+- 总之比较灵活走一步看一部
+
+# 主要技术
+
+# 主要功能
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
