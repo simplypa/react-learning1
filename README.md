@@ -11,12 +11,14 @@
 - Eslint, Prettier
 - Node.js, Express.js来做后端或者时中间件
 - MongoDB, 做数据存储
+- 尝试使用webpack
 
 
 # 主要功能
 - 建立主页功能
 - Outhentification，登入界面
 - 用户消息存储
+
 
 # 简历
 
