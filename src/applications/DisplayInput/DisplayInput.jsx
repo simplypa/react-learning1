@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { v4 as uuidv4 } from 'uuid';
 import Display from './components/Display';
 
 const DisplayInput = () => {
@@ -11,7 +11,11 @@ const DisplayInput = () => {
 
   const submitButtonHandler = (event) => {
     event.preventDefault();
-    setMessages([...messages, input]);
+    const newMessage = {
+      id: uuidv4(), // 生成唯一的 id
+      text: input,
+    };
+    setMessages([...messages, newMessage]);
   };
 
   return (
@@ -21,7 +25,7 @@ const DisplayInput = () => {
       <Display message={input} />
       <ul>
         {messages.map((message) => (
-          <li>{message}</li>
+          <li key={message.id}>{message.text}</li>
         ))}
       </ul>
 
