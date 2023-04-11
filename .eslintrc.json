@@ -6,16 +6,27 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb"
+        
     ],
     "overrides": [
     ],
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "moduleDirectory": ["node_modules", "src/"]
+          }
+        }
+    },
     "parserOptions": {
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": [
+            "./jsconfig.json"
+          ]
     },
     "plugins": [
         "react"
     ],
     "rules": {
-    }
+      }
 }

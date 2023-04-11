@@ -1,12 +1,10 @@
 import React from 'react';
-import Nav from '../../Nav';
-import Info from '../../Info';
+import Nav from 'components/Nav';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Info />
     </div>
   );
 }

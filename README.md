@@ -18,6 +18,7 @@
 - 建立主页功能
 - Outhentification，登入界面
 - 用户消息存储
+- Webpack打包工具使用
 
 
 # 简历
