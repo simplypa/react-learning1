@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Button({ Name }) {
-  const buttonHandler = () => {
-    alert('Button Clicked');
+  const buttonHandler = (msg) => {
+    alert(`${msg} Button Clicked`);
   };
 
   return (
-    <button onClick={buttonHandler} type="button">{Name}</button>
+    <button onClick={() => (buttonHandler({ Name }))} type="button">{Name}</button>
   );
 }
 
