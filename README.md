@@ -6,7 +6,7 @@
 - 后端尝试用用Node.js ？
 - 总之比较灵活走一步看一部
 
-# 主要技术
+# 技术栈
 - React
 - Eslint, Prettier
 - Node.js, Express.js来做后端或者时中间件
@@ -24,7 +24,13 @@
 
 # 主要问题
 - 没有使用Tailwind， 原始CSS文件不太利于共享
-- 如何才能实现响应式布局？
+- 如何才能实现响应式布局？（CSS Framework , Bootstrap, Foundation）
+
+# 学习到的内容
+- useState, useEffect (Hooks)
+- 事件处理， onchange(inputHandler), onsubmit(submitButtonHandler)
+- ReactRouter
+
 
 # 简历
 

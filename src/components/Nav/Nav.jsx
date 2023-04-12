@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => (
   <div>
     <ul>
       <li>
-        <a href="/">首页</a>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <a href="/info">信息</a>
+        <Link to="/">HomePage</Link>
       </li>
     </ul>
   </div>
