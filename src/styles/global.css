@@ -1,5 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add your own custom styles below */
 
 
-.info {
-    color:blue;
-}

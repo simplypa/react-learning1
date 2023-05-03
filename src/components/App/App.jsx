@@ -17,6 +17,7 @@ const App = () => (
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>
+    <p className="underline text-3xl">这是一个tailwind 测试</p>
   </BrowserRouter>
 
   // <div className="App">

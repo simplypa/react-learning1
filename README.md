@@ -1,3 +1,5 @@
+npm run start
+
 # 这是第一个React学习项目，这是项目路线和开始的想法
 - 没有用Tailwind，
 - 用最基础的CSS可能会用SCSS
@@ -36,6 +38,10 @@
 
 
 # 以下是相关React文档
+
+# 如何在React项目中加入Tailwind CSS
+在一个React项目中使用Tailwind CSS，您需要执行以下步骤：
+https://tailwindcss.com/docs/guides/create-react-app
 ---
 
 # Getting Started with Create React App
