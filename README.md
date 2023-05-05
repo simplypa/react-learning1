@@ -1,6 +1,7 @@
 npm run start
 
 # 这是第一个React学习项目，这是项目路线和开始的想法
+- MERN (MongoDB, Express, React, NodeJS)
 - 没有用Tailwind，
 - 用最基础的CSS可能会用SCSS
 - 没用Next.js
